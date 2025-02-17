@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="js/alpine.js"></script>
+    <title> TERE LIYE</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body class="font-serif">
+    <header class="bg-yellow-500 py-6 px-4 flex justify-between items-center">
+        <div class="flex items-center gap-x-4">
+            <!-- <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+            </svg> -->
+            <img src="img/logo_trace_transparent.png" alt="">
+            <div class="text-yellow-900">
+                <h1 class="font-bold text-3xl tracking-wide"> Tere Liye</h1>
+                <h1 class="font-serif italic text-2xl tracking-wide">Go Study!</h1>
+            </div>
+        </div>
+        <div class="flex gap-4">
+        <h1 class="font-bold text-yellow-950 text-2xl">Contact</h1>
+        <h1 class="font-bold text-yellow-950 text-2xl">Donate </h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="p-8 bg-white w-full max-w-md m-auto">
+            <form class="bg-yellow-200 shadow-md rounded px-8 pt-6 pb-8 mb-4" action="submit">
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                      First name
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="firstname" type="text" placeholder="First name">
+                  </div>
+                  <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                      Last name
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="lastname" type="text" placeholder="Last name">
+                  </div>
+                  <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                      Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email">
+                  </div>
+                   <div>
+                    <label for="comments">Let us know more about why you're contacting us</label>
+                    <input class="h-40 w-full text-start p-4" type="text" name="comments" id="comments"></div>
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    Submit
+                  </button>
+            </form>
+        </div>
+    </main>
+</body>
