@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="js/alpine.js"></script>
+  <title> TERE LIYE</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  </link>
+</head>
+
+<body class="font-serif">
+  <header class="bg-yellow-500 py-6 px-4 flex justify-between items-center">
+    <div class="flex items-center gap-x-4">
+      <!-- <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+            </svg> -->
+      <img src="img/logo_trace_transparent.png" alt="">
+      <div class="text-yellow-900">
+        <h1 class="font-bold text-3xl tracking-wide"> Tere Liye</h1>
+        <h1 class="font-serif italic text-2xl tracking-wide">Go Study!</h1>
+      </div>
+    </div>
+    <div class="flex gap-4">
+      <h1 class="font-bold text-yellow-950 text-2xl">Contact</h1>
+      <h1 class="font-bold text-yellow-950 text-2xl">Donate </h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="p-8">
+      <h1 class="text-3xl font-bold mb-4">Donate</h1>
+      <p class="text-lg">Every little bit helps. 100% of donations from contributions goes directly towards helping a
+        girl in need obtain her education.</p>
+    </div>
+    <div class="p-8 bg-white w-full max-w-md m-auto">
+      <form class="bg-yellow-200 shadow-md rounded px-8 pt-6 pb-8 mb-4" action="submit">
+
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+            First name
+          </label>
+          <input
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="firstname" type="text" placeholder="First name">
+        </div>
+        <div class="mb-8">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+            Last name
+          </label>
+          <input
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="lastname" type="text" placeholder="Last name">
+        </div>
+        <div class="mb-8">
+          <h2 class="text-sm mb-6 font-bold">Donation amount</h2>
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
+
+          </label>
+          <label class="font-bold  font-1xl p-4 bg-yellow-300 outline outline-2 outline-yellow-500"
+            for="amount_20">$20</label>
+          <input class="hidden" type="radio" name="amount_20" id="amount_20">
+
+          <label for="amount_20">$20</label>
+          <input type="radio" name="amount_20" id="amount_20">
+
+          <label for="amount_20">$20</label>
+          <input type="radio" name="amount_20" id="amount_20">
+        </div>
+        <div class="mb-4">
+          <label for="email">Email</label>
+
+          <input
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="email" type="text" placeholder="Email">
+        </div>
+
+      </form>
+    </div>
+  </main>
+</body>
