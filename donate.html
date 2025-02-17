@@ -59,15 +59,36 @@
           <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
 
           </label>
+          <label class="font-bold w-32 font-1xl p-4 bg-yellow-300 outline outline-2 outline-yellow-500 mr-4"
+            for="amount">$5</label>
+          <input class="hidden" type="radio" name="amount" id="amount_20">
           <label class="font-bold  font-1xl p-4 bg-yellow-300 outline outline-2 outline-yellow-500"
-            for="amount_20">$20</label>
-          <input class="hidden" type="radio" name="amount_20" id="amount_20">
+            for="amount">$20</label>
+          <input class="hidden" type="radio" name="amount" id="amount_20">
 
-          <label for="amount_20">$20</label>
-          <input type="radio" name="amount_20" id="amount_20">
+          <label for="amount_20">$40</label>
+          <input type="radio" name="amount_20" id="amount">
 
-          <label for="amount_20">$20</label>
-          <input type="radio" name="amount_20" id="amount_20">
+          <label for="amount_20">$60</label>
+          <input type="radio" name="amount_20" id="amount">
+          <label class="font-bold  font-1xl p-4 bg-yellow-300 outline outline-2 outline-yellow-500"
+            for="amount">Other</label>
+          <input class="hidden" type="radio" name="amount" id="amount_20">
+        </div>
+        <div>
+          <label for="amount" class="mb-4">Donation amount</label>
+          <div class="flex gap-4">
+            <div class="amount-option outline outline-2 outline-yellow-500 bg-yellow-300 p-4" data-amount="5">
+              $5
+            </div>
+            <div class="amount-option border rounded-lg p-4" data-amount="10">
+              $10
+            </div>
+            <div class="amount-option border rounded-lg p-4" data-amount="20">
+              $20
+            </div>
+          </div>
+          <input type="hidden" id="donation-amount" name="donation-amount" value="">
         </div>
         <div class="mb-4">
           <label for="email">Email</label>
@@ -75,6 +96,11 @@
           <input
             class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="email" type="text" placeholder="Email">
+        </div>
+        <div class="m-auto">
+          <button class="bg-yellow-300 p-4 rounded-lg outline outline-1 outline-yellow-500 shadow-md shadow-gray-300 text-center text-1xl font-bold" type="submit">
+            Donate
+          </button>
         </div>
 
       </form>
